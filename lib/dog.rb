@@ -11,5 +11,11 @@ class Dog
     @name
   end
 
-  attr_accessor :breed
+  def breed=(breed)
+    @breed = breed
+  end
+
+  def breed
+    @breed
+  end
 end
